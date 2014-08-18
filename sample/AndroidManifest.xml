@@ -252,6 +252,7 @@
         <!-- UNDERLINE INDICATOR -->
         <activity
                 android:name=".SampleUnderlinesDefault"
+                android:theme="@android:style/Theme.NoTitleBar"
                 android:label="Underlines/Default">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

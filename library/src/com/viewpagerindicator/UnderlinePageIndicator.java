@@ -61,7 +61,7 @@ public class UnderlinePageIndicator extends View implements PageIndicator {
       @Override public void run() {
         if (!mFades) return;
 
-        final int alpha = Math.max(mPaint.getAlpha() - mFadeBy, 0);
+        final int alpha = Math.max(mPaint.getAlpha() - mFadeBy, 120);
         mPaint.setAlpha(alpha);
         invalidate();
         if (alpha > 0) {
